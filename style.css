@@ -43,4 +43,23 @@ nav a{
 nav a:hover{
     color: black;
 }
-
+.banner img{
+    background-size: cover;
+    width: 100%;
+}
+article h1{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+article p{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+article h2{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+article ul{
+    margin-left: 50px;
+    margin-top: 10px;
+}
