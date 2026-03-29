@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: palmeiras;
+    src: url(fontes/palmeiras/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+:root{
+    --cor1: #39b65b;
+    --cor2: #064420;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: #064420;
+    background: linear-gradient(90deg,rgba(6, 68, 32, 1) 24%, rgba(57, 182, 91, 1) 100%);
+    box-shadow: 0px 3px 7px 0px #00000080;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+header h1{
+    font-family: 'palmeiras';
+    color: #ffffff;
+    font-size: 5.9em;
+    text-shadow: 2px 2px 8px #000000b3;
+    letter-spacing: 5px;
+    margin-bottom: 14px;
+}
+nav{
+    word-spacing: 7px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+nav a:hover{
+    color: black;
+}
+
