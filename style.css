@@ -4,6 +4,10 @@
     font-family: palmeiras;
     src: url(fontes/palmeiras/Bebas_Neue/BebasNeue-Regular.ttf);
 }
+@font-face {
+    font-family: fonte-h1-h2;
+    src: url(fontes/h1-h2/Oswald/Oswald-VariableFont_wght.ttf);
+}
 :root{
     --cor1: #39b65b;
     --cor2: #064420;
@@ -14,10 +18,11 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
 }
 header{
-    background: #064420;
-    background: linear-gradient(90deg,rgba(6, 68, 32, 1) 24%, rgba(57, 182, 91, 1) 100%);
+    background: #0d301a;
+    background: linear-gradient(90deg,rgba(13, 48, 26, 1) 24%, rgba(0, 112, 37, 1) 100%);
     box-shadow: 0px 3px 7px 0px #00000080;
     text-align: center;
     padding-top: 20px;
@@ -47,19 +52,53 @@ nav a:hover{
     background-size: cover;
     width: 100%;
 }
+article{
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    width: 1100px;
+}
+article h1, h2{
+    font-family: 'fonte-h1-h2';
+    font-weight: 500;
+}
 article h1{
-    margin-left: 50px;
+    margin-top: 25px;
+}
+article h2{
     margin-top: 25px;
 }
 article p{
-    margin-left: 50px;
     margin-top: 10px;
+    text-align: justify;
+    line-height: 27px;
 }
-article h2{
-    margin-left: 50px;
-    margin-top: 25px;
-}
+
 article ul{
-    margin-left: 50px;
+    margin-left: 21px;
     margin-top: 10px;
+    line-height: 27px;
+}
+.torcida img{
+    height: 500px;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+    border-radius: 25px;
+    display: block;
+    box-shadow: 3px 3px 8px 0px #0000007a;
+}
+footer{
+    background-color: #064420;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    font-weight: 900;
+    text-decoration: none;
+    color: #ffffff;
+}
+footer a:hover{
+    color: #bdbdbd;
 }
